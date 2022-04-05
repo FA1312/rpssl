@@ -1,52 +1,52 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAME</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <span>
-      <div id="user-options">
-        
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <h3>
+    Player <span id="p-score">0</span> - <span id="c-score">0</span> Computer
+  </h3>
+  <br/>
+    <span>YOUR CHOICE</span>
+    <br/>
+    <div id="user-options">
         <div>
-          <input type="radio" id="1" name="option" class="user-options">
-          <label for="1">⛰️</label>
+            <input type="radio" id="1" name="option" class="user-option">
+            <label for="1">⛰️</label>
         </div>
-        
         <div>
-          <input type="radio" id="2" name="option" class="user-option">
-          <label for="2">✂️</label>
+            <input type="radio" id="2" name="option" class="user-option">
+            <label for="2">✂️</label>
         </div>
-        
         <div>
-          <input type="radio" id="3" name="option" class="user-option">
-          <label for="3">🧻</label>
+            <input type="radio" id="3" name="option" class="user-option">
+            <label for="3">🧻</label>
         </div>
-        
         <div>
-          <input type="radio" id="4" name="option" class="user-option">
-          <label for="4">🖖</label>
+            <input type="radio" id="4" name="option" class="user-option">
+            <label for="4">🖖</label>
         </div>
-        
         <div>
-          <input type="radio" id="5" name="option" class="user-option">
-          <label for="5">🦎</label>
+            <input type="radio" id="5" name="option" class="user-option">
+            <label for="5">🦎</label>
         </div>
     </div>
-    </span>
+    <br/>
     <span>COMPUTER CHOICE</span>
-      <div id="computer-choice">💭</div>
+    <br/>
     
-      <button id="play">▶️</button>
-      <div id="output"></div>
-    <script src="index.js" async defer></script>
-  </body>
+    <div id="computer-choice">💭</div>
+    <br/> 
+    <button id="play">▶️Play</button>
+    <br/><br/>
+    <div id="output"></div>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
 </html>
+

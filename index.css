@@ -1,3 +1,78 @@
 html {
-  font-size: 42px
+  font-size: 1.75rem;
+  text-align: center;
+  background-color: rgb(7, 71, 97);
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  background-color:black;
+  color:forestgreen;
+  margin: 0 12rem;
+  border: 6px solid forestgreen;
+  padding: 0.5rem;
+  border-radius: 50px
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+.play {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: 6px solid white;
+}
+
+#user-options {
+  border: 6px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 0 8rem;
+  background-color: black;
+}
+
+#user-options span {
+  margin-bottom: 1rem;
+}
+
+.input {
+  margin-bottom: 1rem;
+}
+
+.vs {
+  margin: 0 2rem;
+  padding: 2rem;
+}
+
+#computer-choice {
+  border: 6px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 0 8rem;
+  background-color: black;
+}
+
+.computer-choice p {
+  margin-top: 1rem
 }
