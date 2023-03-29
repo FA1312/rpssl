@@ -15,11 +15,11 @@ const OPTIONS = {
   5: LIZARD,
 };
 const OPTIONS2EMOJI = {
-  1: "⛰️",
-  2: "✂️",
-  3: "🧻",
-  4: "🖖",
-  5: "🦎",
+  1: "⛰️" + "Rock",
+  2: "✂️" + "Scissors",
+  3: "🧻" + "Paper",
+  4: "🖖" + "Spock",
+  5: "🦎" + "Lizard",
 };
 
 let userChoiceID = "";
