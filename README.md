@@ -1,4 +1,4 @@
-# rpssl
+# Rock Paper Scissors - Goty Edition
 
 Rock Paper Scissors Spock Lizard it's all you have been waiting for.
 
